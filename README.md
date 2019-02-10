@@ -1,2 +1,4 @@
 # processing.py-in-ten-lessons
-Exercise and challenge task files
+
+The exercise and challenge task files for these online lessons:  
+[https://tabreturn.github.io/#processing-reverse](https://tabreturn.github.io/#processing-reverse)
