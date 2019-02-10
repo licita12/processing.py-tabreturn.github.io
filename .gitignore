@@ -1,0 +1,11 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.~lock*
+~$*
+
+__pycache__/
+*.py[cod]
+*$py.class
