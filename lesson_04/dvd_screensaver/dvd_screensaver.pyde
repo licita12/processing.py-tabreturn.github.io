@@ -1,3 +1,6 @@
+# This sketch makes use of:
+# DVD Logo [Public domain / filled in blue], from Wikimedia Commons
+
 x = 0
 xspeed = 2
 y = 0

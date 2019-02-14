@@ -1,3 +1,6 @@
+# This sketch makes use of:
+# "Mona Lisa" by Leonardo da Vinci [Public domain]
+
 size(1000,720)
 background('#004477')
 noFill()

@@ -1,3 +1,7 @@
+# This sketch makes use of:
+# Mwaash aMbooy mask
+# Brooklyn Museum [CC BY 3.0]
+
 size(1000,720)
 background('#004477')
 noStroke()

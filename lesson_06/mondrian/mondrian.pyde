@@ -1,3 +1,7 @@
+# This is a recreation of:
+# "Composition II in Red, Blue, and Yellow"
+# Piet Mondrian [Public domain] 
+
 size(480,480)
 background('#004477')
 noSmooth()

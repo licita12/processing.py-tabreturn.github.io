@@ -1,3 +1,7 @@
+# This sketch makes use of:
+# The Apple Computer rainbow colour logo, in use from 1977–1999.
+# Rob Janoff [Public domain], via Wikimedia Commons
+
 size(800,850)
 background('#004477')
 

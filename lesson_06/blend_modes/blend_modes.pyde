@@ -1,3 +1,7 @@
+# This sketch makes use of:
+# "Rubber Duck" by Florentijn Hofman, in Darling Harbour as part of the 2013 Sydney Festival.
+# Newtown grafitti [CC BY 2.0], via Wikimedia Commons
+
 size(960,480)
 background('#004477')
 noStroke()

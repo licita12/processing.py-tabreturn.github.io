@@ -1,3 +1,7 @@
+# Sales data from:
+# https://en.wikipedia.org/wiki/List_of_best-selling_video_games
+# (which may well have shuffled since)
+
 size(800,800)
 background('#004477')
 noStroke()

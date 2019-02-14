@@ -1,3 +1,7 @@
+# This sketch makes use of:
+# A forbidden city imperial guardian lion.
+# Tang Zu-Ming [Public domain], via Wikimedia Commons
+
 size(1050,500)
 background('#004477')
 noStroke()
