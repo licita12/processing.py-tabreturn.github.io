@@ -2,6 +2,7 @@
 
 The exercise and challenge task files for my Processing.py lessons
 
-[https://tabreturn.github.io/#processing-reverse](https://tabreturn.github.io/#processing-reverse)
+Accompanying lessons/tutorials:  
+[Processing.py in Ten Lessons](https://tabreturn.github.io/#processing-reverse)
 
 ![](screenshot.png)
