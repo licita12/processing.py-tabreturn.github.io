@@ -1,3 +1,7 @@
+# First install Andreas Schlegel's ControlP5 library
+# It is easiest to use the Processing menu:
+# Sketch > Import Library… > Add Library…
+
 add_library('controlP5')
 
 def setup():
