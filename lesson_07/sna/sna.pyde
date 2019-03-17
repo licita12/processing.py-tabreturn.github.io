@@ -22,7 +22,7 @@ def draw():
     global playerx, playery, xspeed, yspeed
     playerx += xspeed
     #playery += yspeed
-    playery += yspeed * (deltatime/30)
+    playery += yspeed * (deltatime/33.3)
 
     fill(0x66004477)
     rect(0,0, width,height)
