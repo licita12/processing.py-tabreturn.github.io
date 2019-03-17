@@ -21,10 +21,10 @@ def draw():
     
     global playerx, playery, xspeed, yspeed
     playerx += xspeed
-    # playery += yspeed
-    playery += yspeed * (deltatime / (30 * 1000.0) )
+    #playery += yspeed
+    playery += yspeed * (deltatime/30)
 
-    fill(0x33004477)
+    fill(0x66004477)
     rect(0,0, width,height)
 
     fill('#FFFFFF')
@@ -56,7 +56,7 @@ def draw():
         text(millis(), width/2,28)
         noLoop()
     
-    for i in range(ceil(random( 1000 ))):
+    for i in range(ceil(random( 900 ))):
         for j in range(i):
             atan(12345*i) * tan(67890*i)
     
