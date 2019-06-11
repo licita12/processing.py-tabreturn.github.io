@@ -50,7 +50,7 @@ print( all.title() )         # Hello Wo...y "World"?
 print( all.count('o') )      # o
 print( all.count('or') )     # 4
 print( all.find('world') )   # 6
-print( all.find('lemon') )  # -1
+print( all.find('lemon') )   # -1
 print( all.find('world',7) ) # 45
 
 # print( all[0:5].title() + '...' )
