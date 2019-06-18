@@ -32,4 +32,4 @@ elif mark >= 45 and mark < 50:
 else:
     print('FAIL')
 
-print( not(False) )
+print( not False )    # displays: True
