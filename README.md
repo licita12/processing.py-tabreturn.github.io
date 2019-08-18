@@ -35,18 +35,18 @@ Accompanying lessons/tutorials:
 
 <a href="lesson_07/identikit"><img src="readme_img/07-identikit.png" height="200" /></a> <a href="lesson_07/mouse_toy"><img src="readme_img/07-mouse_toy.png" height="200" /></a> <a href="lesson_07/paint_app"><img src="readme_img/07-paint_app.png" height="200" /></a> <a href="lesson_07/sna"><img src="readme_img/07-sna.png" height="200" /></a>
 
-## Lesson 08 (work in progress)
+## Lesson 08 *(work in progress)*
 
 <a href="lesson_08_(wip)/mac_os9"><img src="readme_img/08-mac_os9.png" height="200" /></a> <a href="lesson_08_(wip)/parametric_equations"><img src="readme_img/08-parametric_equations.png" height="200" /></a> <a href="lesson_08_(wip)/wang_tiles"><img src="readme_img/08-wang_tiles.png" height="200" /></a>
 
-## Lesson 09 (work in progress)
+## Lesson 09 *(work in progress)*
 
 <a href="lesson_09_(wip)/microscopic"><img src="readme_img/09-microscopic.png" height="200" /></a>
 
-## Lesson 10 (work in progress)
+## Lesson 10 *(work in progress)*
 
 <a href="lesson_10_(wip)/physics"><img src="readme_img/10-physics.png" height="200" /></a>
 
-## Bonus lesson (work in progress)
+## Bonus lesson *(work in progress)*
 
 <a href="lesson_bonus_(wip)/nyan3d"><img src="readme_img/bonus-nyan3d.png" height="200" /></a> <a href="lesson_bonus_(wip)/threedee"><img src="readme_img/bonus-threedee.png" height="200" /></a>
