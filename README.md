@@ -49,4 +49,4 @@ Accompanying lessons/tutorials:
 
 ## Bonus lesson (work in progress)
 
-<a href="lesson_bonus_(wip)/nyan3d"><img src="readme_img/bonus-nyan3d.png" height="200" /></a> <a href="lesson_bonus/threedee_(wip)"><img src="readme_img/bonus-threedee.png" height="200" /></a>
+<a href="lesson_bonus_(wip)/nyan3d"><img src="readme_img/bonus-nyan3d.png" height="200" /></a> <a href="lesson_bonus_(wip)/threedee"><img src="readme_img/bonus-threedee.png" height="200" /></a>
