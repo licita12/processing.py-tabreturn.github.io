@@ -1,6 +1,6 @@
 # https://en.wikipedia.org/wiki/Chernoff_face
 
-size(200,200)
+size(300,300)
 background('#004477')
 fill('#0099FF')
 strokeCap(PROJECT)
@@ -14,7 +14,7 @@ def face(x,y,gap):
     
     # center line
     stroke('#000000')
-    strokeWeight(6)
+    strokeWeight(9)
     line(x,0, x,y)
     line(x,y, x+gap,y)
     line(x+gap,y, x+gap,width)
