@@ -18,9 +18,11 @@ def ellips(t):
     y = 1 * sin(t)
     return [x,y]
 
-def lissajous(t,a,b,kx,ky):
-    x = a * cos(kx*t)
-    y = b * sin(ky*t)
+def lissajous(t,A,B,a,b):
+    # ratio of a/b determines curve
+    # so a=2,b=1 same as a=10,b=5
+    x = A * cos(a*t)
+    y = B * sin(b*t)
     return [x,y]
 
 x = -300.0
