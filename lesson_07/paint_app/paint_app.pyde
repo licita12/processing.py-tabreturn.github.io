@@ -69,6 +69,7 @@ def draw():
     if brushsize < 15:
         cursor(CROSS)
     else:
+        # only works properly on Mac OS?
         mousecursor = loadImage('brush-cursor.png')
         mousecursor.resize(brushsize, brushsize)
         cursor(mousecursor)
