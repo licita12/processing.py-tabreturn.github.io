@@ -1,13 +1,13 @@
-# https://en.wikipedia.org/wiki/Chernoff_face
+# https://en.wikipedia.org/wiki/Finder_(software)
 
 size(300,300)
 background('#004477')
-fill('#0099FF')
 strokeCap(PROJECT)
 
 def face(x,y,gap):
     
     # right half
+    fill('#0099FF')
     noStroke()
     rect(x,0, width,y)
     rect(x+gap,0, width,height)
