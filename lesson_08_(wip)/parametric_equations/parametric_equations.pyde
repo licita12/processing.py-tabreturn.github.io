@@ -5,10 +5,10 @@ def setup():
     background('#004477')
     strokeWeight(3)
 
-def porabola(x):
+def parabola(x):
     return x*x
 
-def circle(t):
+def circl(t):
     x = cos(t)
     y = sin(t)
     return [x,y]
@@ -18,11 +18,11 @@ def ellips(t):
     y = 1 * sin(t)
     return [x,y]
 
-def lissajous(t,A,B,a,b):
-    # ratio of a/b determines curve
-    # so a=2,b=1 same as a=10,b=5
-    x = A * cos(a*t)
-    y = B * sin(b*t)
+def lissajous(t,a,b,kx,ky):
+    # ratio of kx/ky determines curve
+    # so kx=2,ky=1 same as kx=10,ky=5
+    x = a * cos(kx*t)
+    y = b * sin(ky*t)
     return [x,y]
 
 x = -300.0
@@ -40,12 +40,12 @@ def draw():
     stroke('#FFFFFF')
     
     '''
-    y = porabola(x)
+    y = parabola(x)
     x += 1
     point(x,y)
     '''
     '''
-    xy = circle(t)
+    xy = circl(t)
     x = xy[0] * 100
     y = xy[1] * 100
     point(x,y)
