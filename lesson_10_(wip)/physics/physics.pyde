@@ -7,8 +7,8 @@ from pypybox2d.common import *
 def setup():
     size(600,600)
     frameRate(60)
-    wendy = createFont('wendy', 3)
-    textFont(wendy)
+    ernest = createFont('Ernest.ttf', 3)
+    textFont(ernest)
 
     # create bodies
 
