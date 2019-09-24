@@ -3,7 +3,7 @@
 #
 # C++ version Copyright (c) 2006-2011 Erin Catto http://www.box2d.org
 # Python port by Ken Lauer / http://pybox2d.googlecode.com
-#
+# 
 # This software is provided 'as-is', without any express or implied
 # warranty.  In no event will the authors be held liable for any damages
 # arising from the use of this software.
@@ -312,9 +312,9 @@ class Vec3(object):
     def __setitem__(self, i, value):
         if i==0:
             self.x = float(value)
-        elif i==1:
+        elif i==1: 
             self.y = float(value)
-        elif i==2:
+        elif i==2: 
             self.z = float(value)
         else:
             raise IndexError('Index must be in (0,1,2)')
@@ -353,7 +353,7 @@ class Vec3(object):
     def cross(self, other):
         vx, vy, vz = other
         sx, sy, sz = self
-        return Vec3(sy * vz - sz * vy,
+        return Vec3(sy * vz - sz * vy, 
                     sz * vx - sx * vz,
                     sx * vy - sy * vx)
 
@@ -409,7 +409,7 @@ class PyMat22(object):
         v0, v1 = vec
         return Vec2((self._col1.x * v0 + self._col2.x * v1),
                     (self._col1.y * v0 + self._col2.y * v1))
-
+ 
     def __abs__(self):
         return Mat22(abs(self._col1), abs(self._col2))
     def __add__(self, other):
@@ -487,7 +487,7 @@ class PyMat22(object):
                 ((self._col1.dot(other.col1)), (self._col2.dot(other.col1))),
                 ((self._col1.dot(other.col2)), (self._col2.dot(other.col2))),
                 )
-
+        
     @property
     def angle(self):
         return math.atan2(self._col1.y, self._col1.x)
@@ -506,7 +506,7 @@ class PyMat22(object):
     def inverse(self):
         """
         Calculate the inverse matrix
-        """
+        """ 
         # a b <=> col1.x col2.x
         # c d     col1.y col2.y
         a, b=self._col1.x, self._col2.x
@@ -537,7 +537,7 @@ class Mat33(object):
     __slots__=['col1', 'col2', 'col3']
     def __init__(self, col1=(1, 0, 0), col2=(0, 1, 0), col3=(0, 0, 1)):
         self.col1, self.col2, self.col3=Vec3(*col1), Vec3(*col2), Vec3(*col3)
-
+    
     def __str__(self):
         return \
 """
@@ -632,7 +632,7 @@ class PyTransform(object):
     def position(self):
         """The offset of the transform"""
         return self._position
-
+    
     @position.setter
     def position(self, position):
         self._position = Vec2(*position)
@@ -641,7 +641,7 @@ class PyTransform(object):
     def rotation(self):
         """The rotation matrix of the transform"""
         return Mat22(self._rotation.col1, self._rotation.col2)
-
+    
     @rotation.setter
     def rotation(self, rotation):
         self._rotation = Vec2(*rotation)
@@ -676,7 +676,7 @@ class PyTransform(object):
 
     def __mul__(self, other):
         """
-
+        
         """
         o0, o1 = other
         col1 = self._rotation.col1
@@ -900,7 +900,7 @@ class Sweep(object):
 
         xf = Transform(position=(1.0 - beta) * self.c0 + beta * self.c,
                        angle=(1.0 - beta) * self.a0 + beta * self.a)
-
+        
         # Shift to origin
         xf.position = xf.position - xf._rotation * self.local_center
         return xf
