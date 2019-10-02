@@ -46,7 +46,10 @@ def setup():
     )
     trapezoid.apply_linear_impulse( impulse=(1,0), point=(10,10) )
 
-
+def polygon(vertices):
+    beginShape()
+    for v in vertices: vertex(v.x, v.y)
+    endShape(CLOSE)
 
 def draw():
     background('#004477')
@@ -72,12 +75,7 @@ def draw():
     pushMatrix()
     translate(ground.position.x, ground.position.y)
     fill(ground.fixtures[0].user_data[1])
-    beginShape()
-    vertex(ground.fixtures[0].shape._vertices[0].x, ground.fixtures[0].shape._vertices[0].y)
-    vertex(ground.fixtures[0].shape._vertices[1].x, ground.fixtures[0].shape._vertices[1].y)
-    vertex(ground.fixtures[0].shape._vertices[2].x, ground.fixtures[0].shape._vertices[2].y)
-    vertex(ground.fixtures[0].shape._vertices[3].x, ground.fixtures[0].shape._vertices[3].y)
-    endShape(CLOSE)
+    polygon(ground.fixtures[0].shape._vertices)
     popMatrix()
 
     pushMatrix()
@@ -94,12 +92,7 @@ def draw():
     fill(trapezoid.fixtures[0].user_data[1])
     translate(trapezoid.position.x, trapezoid.position.y)
     rotate(trapezoid.angle)
-    beginShape()
-    vertex(trapezoid.fixtures[0].shape._vertices[0].x, trapezoid.fixtures[0].shape._vertices[0].y)
-    vertex(trapezoid.fixtures[0].shape._vertices[1].x, trapezoid.fixtures[0].shape._vertices[1].y)
-    vertex(trapezoid.fixtures[0].shape._vertices[2].x, trapezoid.fixtures[0].shape._vertices[2].y)
-    vertex(trapezoid.fixtures[0].shape._vertices[3].x, trapezoid.fixtures[0].shape._vertices[3].y)
-    endShape(CLOSE)
+    polygon(trapezoid.fixtures[0].shape._vertices)
     popMatrix()
 
     # collisions
