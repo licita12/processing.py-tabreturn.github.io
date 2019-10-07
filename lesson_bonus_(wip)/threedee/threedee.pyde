@@ -1,7 +1,3 @@
-# build a (very basic) 3d engine? numpy could be useful for matrices?
-# https://en.wikipedia.org/wiki/3D_projection
-# https://www.scratchapixel.com/lessons/3d-basic-rendering/computing-pixel-coordinates-of-3d-point/mathematics-computing-2d-coordinates-of-3d-points
-
 def setup():
     size(600,600, P3D)
     global img
