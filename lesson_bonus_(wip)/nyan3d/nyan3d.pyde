@@ -1,5 +1,4 @@
 # https://en.wikipedia.org/wiki/3D_projection#Perspective_projection
-# https://medium.com/@behreajj/3d-rotations-in-processing-vectors-matrices-quaternions-10e2fed5f0a3
 
 def setup():
     size(600,600)
@@ -115,11 +114,4 @@ def draw():
     a4 = rotatez(a4, t)
     a5 = rotatez(a5, t)
 
-# CHALLENGE: fill in facets (use the z-coord to determine which side is foremost) 
-    
-    
-    
-    
-    
-    
-    
+# CHALLENGE: fill in facets (use the z-coord to determine which side is foremost)
