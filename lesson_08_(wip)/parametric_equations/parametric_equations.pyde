@@ -64,7 +64,7 @@ def draw():
     point(x,y)
     '''
 
-    # windows mystify screensaver
+    # mystify-esque screensaver
     xy1 = lissajous(t,2,1,3,1)
     x1 = xy1[0] * 100
     y1 = xy1[1] * 100
