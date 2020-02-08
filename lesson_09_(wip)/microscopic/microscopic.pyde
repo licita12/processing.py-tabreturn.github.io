@@ -40,7 +40,7 @@ def draw():
                          b.location.x, b.location.y + b.diameter/2
                        )
             
-            if distance < a.diameter/2 + b.diameter/2:
+            if distance > 0 and distance < a.diameter/2 + b.diameter/2:
                 goto = PVector.sub(b.location, a.location)
                 goto.div(1000)
                 goto.mult(-1)
